@@ -1,0 +1,48 @@
+.cognito-authenticator {
+  --amplify-components-fieldcontrol-border-width: 1px;
+  --amplify-components-authenticator-router-background-color: transparent;
+}
+
+/* form container */
+.cognito-authenticator [data-amplify-authenticator] [data-amplify-form] {
+  padding: var(--amplify-components-authenticator-form-padding) 0;
+}
+
+/* cognito authenticator width */
+.cognito-authenticator,
+.cognito-authenticator [data-amplify-authenticator] [data-amplify-container] {
+  width: 100%;
+}
+
+/* tabs */
+.cognito-authenticator .amplify-tabs {
+  display: none;
+}
+
+/* form inputs */
+.cognito-authenticator .amplify-input,
+.cognito-authenticator .amplify-select {
+  border-width: 1px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* form inputs hover */
+.cognito-authenticator .amplify-input:not(:focus):hover {
+  border-color: rgba(0, 0, 0, 0.87);
+}
+
+/* heading */
+.cognito-authenticator .amplify-heading.amplify-heading--3 {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+/* show password icon button */
+.cognito-authenticator .amplify-field-group__outer-end .amplify-button {
+  border-left: none;
+  border-width: 1px;
+}
+
